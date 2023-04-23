@@ -2,13 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>youtubeclone</title>
 </head>
 <body>
-   <nav>
     
-   </nav> 
+       
+      <ul class="topnav" style="z-index: 99;">
+       <li><div></div>
+        <div></div>
+        <div></div></li>
+     <li><a href="https://www.youtube.com"><img id="image" src="logo.png" alt="logo"></a></li>
+    
+       <li><form style="height: 70px;" class="example" action="action_page.php">
+        <input style=" margin-left:200px;width: 500px; height:35px; background:transparent; color:aliceblue;  border-bottom-left-radius: 100px;border-top-left-radius: 100px;font-size: 18px; text-allign: left; " type="text" placeholder="Search..." name="search">
+      
+      </form></li>
+      <li><button style=" width:36px; height:40px; border-bottom-right-radius: 100px;border-top-right-radius: 100px;margin-left:430px; margin-top:1px" id="search" type="submit"><i class="fa fa-search"></i></button></li>
+      <li><button style=" margin-left:0px; height:40px;width:36px; "><i class="fa fa-microphone" style="font-size:24px; "></i></button></li>
+
+      <li id="setting" style="margin-left:275px; "><strong style="height:47px; width:5px;">&vellip;</strong></li>
+      <li style="padding-left:45px"><button><i class="fa fa-sign-in" style="font-size:24px; color:black;"> sign in</i></button></li>
+    </ul>
+    
+    <iframe style="margin-left: 20px; margin-top:-1px;" width="1000" height="600" src="https://www.youtube.com/embed/9YffrCViTVk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+      <h4 style="color:aliceblue; margin-left:20px; display:inline; font-size:30px;">Embed a YouTube Video in HTML and Make it Responsive (CSS included)</h4>
+      <br>
+      <ul style="margin-left:-5px; padding: top 9px; overflow:hidden"class="stylenavbar">
+        <li><img style="border-radius:50%" src="channellogo.jpg" alt="channellogo" height="50" width="50"></li>
+        
+        <li><a href="https://www.youtube.com/@tipswithpunch"><h3 style="font-size: 24px; margin-top:2px; margin-left:-2px;overflow:hidden;">Robert- Tipswithpunch </h3></a>
+        <p style="margin-top:-2px; padding-top:0px">475k subscribers</p></li>
+        <li><button style="width: 100px; margin-left:10px;height:34px;border-radius: 25px;">Subscribe</button></li>
+        <li style="margin-left: 60px;"><button style="background-color: transparent; width:100px; height:34px;color:aliceblue;border-bottom-left-radius: 100px;border-top-left-radius: 100px"><i class="fa fa-thumbs-up" style="font-size:24px">5.4k </i></button><button style="background-color: transparent; width:50px; height:34px; color:aliceblue;border-bottom-right-radius: 100px;border-top-right-radius: 100px"><i class="fa fa-thumbs-down" style="font-size: 24px;"></i></button></li>
+        <li style="padding-left: 4px;"><button style="background-color: transparent; margin-left:10px;width:100px; height:34px; color:aliceblue;border-radius: 25px;"><i class="fa fa-share" style="font-size: 24px;"> share</i></button></li>
+        <li style="padding-left: 3px;"><button style="background-color: transparent;color:aliceblue;width:140px;height:34px;border-radius:25px"><i class="fa fa-download" style="font-size:24px;">download</i></button></li>
+        <li style="margin-left:0px; padding-left:4px"><button style="background-color: transparent; color:aliceblue;width:30px; margin-left:3px;height:30px; border-radius:25px;test-allign:centre;padding:4px">...</button></li>
+      </ul>
+      <section style="background-color: rgb(36, 36, 36); color:aliceblue;:15px;margin-left:30px;margin-right:500px;border-radius:25px">
+        <p>475,561 views  May 31, 2018  Wordpress Tutorials<br>
+          In this quick video, I’ll show you how to embed a YouTube video in HTML, 
+          how to make it responsive on any sized device and I’ll reveal how you can<br>
+           easily adjust embed options such as autoplay. This will work for any iframes 
+           such as google maps iframe.</p>
+           <a href="#mydiv">showmore</a>
+           
+</section>
+<br>
+<b style="background-color: transparent;color:aliceblue; margin-left:36px; font-size:26px">comments  - sort by</b>
+<hr style="color:aliceblue;:15px;margin-left:30px;margin-right:500px;">
+  <section style="background-color: transparent; color:aliceblue;:15px;margin-left:30px;margin-right:500px">
+    <form action="/action_page.php" id="usrform">
+      Name: <input type="text" placeholder="enter your text..."name="usrname" style="width: 500px; height: 100px; margin-right:500px ; font-size:large">
+      <input type="submit">
+    </form>
+    <br>
+    
+  </section>
+ 
+   <aside class="sidebar">
+    <ul class="aside">
+      <li class="recommendation">
+    <img style="border-radius:20px;"src="script.png" alt="next video" height="100" width="200">
+    <div>
+      <h3>javascript</h3>
+    <p style="color: aliceblue;">javascript</p>
+    </div>
+    </li>
+    
+         
+    </ul>
+   </aside>   
+ 
+   
 </body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
 </html>

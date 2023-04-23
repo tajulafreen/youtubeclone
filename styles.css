@@ -1,1 +1,78 @@
-script.js
+body{
+    background-color: black;
+    display: flexbox;
+}
+div {
+    width: 20px;
+    height: 1.5px;
+    background-color: rgba(235, 226, 226, 0.936);
+    margin: 5px ;
+    margin-right: 10px;
+    
+}
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+li  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    float: left;
+  }
+strong{
+   color: aliceblue;
+   height: 7px;
+   width: 37;
+}
+ #image {
+margin-top: 0px;
+margin-left: 0px;
+width: 100px;
+vertical-align: top;
+
+}
+form {
+    width: 250px;
+    height: 299px;
+}
+#search {
+    margin-bottom: 9px;
+}
+
+.fa-microphone {
+   margin-left: -2px;
+}
+#video{
+    margin-top: -7px;
+    width: 1000px;
+    height: 1000px;
+}
+.youtubevideo {
+    z-index: 99;
+}
+.sideshift {
+    padding-left: 24px;
+}
+.sidebar{
+    position: absolute;
+    right: 15%;
+    top: 13%;
+}
+.recommendation {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.aside{
+    float: left;
+}
