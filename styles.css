@@ -74,5 +74,7 @@ form {
     margin-bottom: 10px;
 }
 .aside{
+    display: flex;
+    flex-direction: column;
     float: left;
 }
